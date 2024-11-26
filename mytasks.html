@@ -11,26 +11,35 @@
 <body>
     <div class="navbar" id="navbar">
       <ul id="navigation-menu">
-        <li><a href="mytasks.html" >Tasks</a></li>
+        <li class="active"><a href="mytasks.html" >Tasks</a></li>
         <li><a href="create.html">Create</a></li>
         <li><a href="overview.html">Overview</a></li>
       </ul>
     </div>
-    <div class="container">
 
     <header id="header">
-        <h1>My Tasks</h1>
+        <h2>My Tasks</h2>
     </header>
+
     
+
     <main>
-        <ul id="tasks-list">
-            <li class="task-item">
-               <h3 id="task-name">Android App</h3>
-               <h5 id="deadline">10/12/2024</h5>
-               <i class="fa fa-pencil" aria-hidden="true"></i>
-            </li>
-        </ul>
+        <div class="container" style="display: flex; margin-left:30px; align-items: center; justify-content: flex-start; ">
+            <input type="checkbox" style="margin-right: 10px; margin-left: 20px;">
+            <p style="margin-left: 15px;">Android App</p>
+            <p style="margin-left: 130px;">05.11.24</p>
+        </div>
+        <div class="container" style="display: flex; margin-left:30px; align-items: center; justify-content: flex-start; ">
+            <input type="checkbox" style="margin-right: 10px; margin-left: 20px;">
+            <p style="margin-left: 15px;">Snail Game in Java</p>
+            <p style="margin-left: 80px;">15.11.24</p>
+        </div>
+        <div class="container" style="display: flex; margin-left:30px; align-items: center; justify-content: flex-start; ">
+            <input type="checkbox" style="margin-right: 10px; margin-left: 20px;">
+            <p style="margin-left: 15px;">pwa</p>
+            <p style="margin-left: 190px;">28.11.24</p>
+        </div>
     </main>
-    </div>
+    
 </body>
 </html>
