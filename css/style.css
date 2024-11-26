@@ -48,6 +48,7 @@ h1 {
 }
 
 
+<<<<<<< Updated upstream
 #greeting {
   font-size: 30px;
   font-weight: bold;
@@ -82,4 +83,12 @@ h1 {
   margin-right: 30px;
   
 
+=======
+
+
+/*My tasks css*/
+.container{
+  width: 80%;
+  margin: auto;
+>>>>>>> Stashed changes
 }
