@@ -5,6 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+  
+      .new-subtask, input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #d1c4e9;
+        border-radius: 10px;
+        background-color: #e8e1f0;
+        color: #333;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      input {
+        outline: none;
+        margin-bottom: .3rem;
+        width: 40%;
+      }
+      
+      .input-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .reminder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .reminder input {
+        width: 70%;
+      }
+      
+      .reminder span {
+        color: #555;
+        font-size: 14px;
+      }
+      button.new-task{
+        width: 70%;
+      
+      }
+      
+      .add-task {
+        width: 43%;
+        padding: 10px;
+        margin: 20px 0;
+        border: 2px solid #d1c4e9;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      
+      .add-task:hover {
+        background-color: #f7f7f7;
+        border-color: #b39ddb;
+      }
+      
+      </style>
 </head>
 <body>
     <div class="navbar" id="navbar">
@@ -16,6 +80,21 @@
       </div>
 
     <h2>Create Task</h2>
-    
+    <div class="">
+      <div class="input-group">
+        <input type="text" placeholder="Add a task" />
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Task Name" />
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="Due on" />
+      </div>
+      <div class="input-group">
+        <button class="add-task">Add Task</button>
+
+      </div>
+    </div>
 </body>
 </html>
+
