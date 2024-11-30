@@ -109,3 +109,29 @@ h2 {
   margin-bottom: 20px;
   color: #333;
 }
+
+    
+    
+textarea { outline: none; margin-bottom: 0.3rem; padding: 10px;margin: 10px 0; border: 2px solid #d1c4e9; border-radius: 10px; background-color: #e8e1f0; color: #333; font-size: 14px;width: 80%; /* Input field width */ box-sizing: border-box; /* Include padding and border in width */ } /* Specific styles for Task Name (adjustable height) */ textarea#task-name { resize: none; /* Disable manual resizing */ min-height: 40px; /* Minimum height */ overflow: hidden; /* Hide scrollbars for auto height adjustment */ } /* Specific styles for Due On (fixed height) */ textarea#due-on { height: 40px; /* Fixed height */ resize: none; /* Disable manual resizing */ }
+
+
+    
+.input-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task {
+  width: 43%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 2px solid #d1c4e9;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
